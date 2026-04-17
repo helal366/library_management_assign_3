@@ -1,7 +1,9 @@
+import dotenv from "dotenv";
 import {Server} from "http"
 import mongoose from "mongoose";
 import { uri } from "./configs/mongoDB";
 import { app } from "./app";
+dotenv.config();
 let server:Server;
 const PORT=5000;
 async function main(){
