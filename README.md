@@ -82,7 +82,7 @@ You can change the value of filter sortBy sort and limit.
 
 
 ### Borrow API
-### Borrow a Book: POST /api/borrow
+#### Borrow a Book: POST /api/borrow
 *** Request Body:
 ```
 {
