@@ -8,7 +8,7 @@ app.use('/api/books', booksRoutes);
 app.use('/api/borrow', borrowBooksRoutes);
 app.get('/', (req:Request, res:Response, next:NextFunction)=>{
     try {
-        res.send("Welcome to Book App")
+        res.send(`Welcome to Library Management Book App`)
     } catch (error) {
         next(error)
     }
